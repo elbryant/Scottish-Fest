@@ -29,7 +29,11 @@ body {
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.5rem;
+    font-size: 4.5rem;
+    text-align: center;
+	color: #27673F;
+	word-spacing: 0.5882352941em; /* 10px / 17px */
+	letter-spacing: 0.4117647059em; /* 7px / 17px */
 }
 
 h2 {
@@ -251,15 +255,6 @@ p {
 
 /* CUSTOM STYLES */
 
-.container .row .col-12 #title {
-  text-align: center;
-  font-size: 3.9375em; /* 63px / 16px  */
-  color: #27673F;
-  word-spacing: 0.5882352941em; /* 10px / 17px */
-  letter-spacing: 0.4117647059em; /* 7px / 17px */
-  margin: -30em; /* -50px / 50px */
-}
-
 .container .row .col-12  a {
   text-decoration: none;
   text-align: center;
@@ -267,7 +262,7 @@ p {
   color: #27673F;
 }
 
-#navbar {
+.container .row .col-12 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 15px;
@@ -275,13 +270,13 @@ p {
   text-align: center;
 }
 
-#navbar li {
+.container .row .col-12 .navbar li {
   display: inline;
   padding-right: 10px;
   padding-left: 50px;
 }
 
-#navbar a {
+.container .row .col-12 .navbar a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 1.15em;

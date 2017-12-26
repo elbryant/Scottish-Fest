@@ -30,6 +30,7 @@ body {
 
 h1 {
     font-size: 5rem;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 	color: #27673F;
 	word-spacing: 0.5882352941em; /* 10px / 17px */
@@ -238,6 +239,10 @@ p {
 footer {
   clear: both;
   padding: 0 15px;
+}
+
+li ul {
+    display: none;
 }
 
 
